@@ -42,7 +42,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sah-La-Lit" userLabel="SignAppleButton">
-                                <rect key="frame" x="81.666666666666686" y="630" width="227" height="60"/>
+                                <rect key="frame" x="81.666666666666686" y="614.33333333333337" width="227" height="60"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple-logo-1" translatesAutoresizingMaskIntoConstraints="NO" id="6Xq-6o-I4K">
                                         <rect key="frame" x="10" y="15" width="30" height="30"/>
@@ -70,7 +70,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xg8-Wk-ZKJ" userLabel="SignGoogleButton">
-                                <rect key="frame" x="81.666666666666686" y="710" width="227" height="60"/>
+                                <rect key="frame" x="81.666666666666686" y="694.33333333333337" width="227" height="60"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="my-google-logo-4" translatesAutoresizingMaskIntoConstraints="NO" id="d6g-z6-3es">
                                         <rect key="frame" x="10" y="15" width="30" height="30"/>
@@ -97,6 +97,33 @@
                                     <constraint firstAttribute="height" constant="60" id="xnY-yc-58e"/>
                                 </constraints>
                             </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="fYU-Th-B1I">
+                                <rect key="frame" x="81.666666666666686" y="774.33333333333337" width="227" height="15.666666666666629"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Already have an account?" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Urw-jB-CoX">
+                                        <rect key="frame" x="0.0" y="0.0" width="166.66666666666666" height="15.666666666666666"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j30-3P-kSc">
+                                        <rect key="frame" x="166.66666666666669" y="0.0" width="60.333333333333343" height="15.666666666666666"/>
+                                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="15" maxY="0.0"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Log in">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <font key="NSFont" size="13" name="AppleSDGothicNeo-Bold"/>
+                                                        <font key="NSOriginalFont" metaFont="systemBold"/>
+                                                        <integer key="NSUnderline" value="1"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -104,10 +131,13 @@
                             <constraint firstItem="7zD-eH-uqG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1Bb-vO-ID8"/>
                             <constraint firstItem="efF-Uz-Gt0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1Vk-go-nfP"/>
                             <constraint firstItem="xg8-Wk-ZKJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7XK-3r-voe"/>
+                            <constraint firstItem="fYU-Th-B1I" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AYL-Cn-HJ8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VVu-1G-MVg" secondAttribute="trailing" constant="20" id="Afj-E1-V2p"/>
                             <constraint firstAttribute="trailing" secondItem="7zD-eH-uqG" secondAttribute="trailing" id="B3n-iu-6kR"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xg8-Wk-ZKJ" secondAttribute="bottom" constant="40" id="YQg-fI-6Uk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fYU-Th-B1I" secondAttribute="bottom" constant="20" id="MS0-Vf-6Vj"/>
+                            <constraint firstItem="fYU-Th-B1I" firstAttribute="top" secondItem="xg8-Wk-ZKJ" secondAttribute="bottom" constant="20" id="YQg-fI-6Uk"/>
                             <constraint firstItem="sah-La-Lit" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bUO-9v-1nZ"/>
+                            <constraint firstItem="fYU-Th-B1I" firstAttribute="width" secondItem="xg8-Wk-ZKJ" secondAttribute="width" priority="750" id="bUV-7B-wyv"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UCo-V6-S1b" secondAttribute="trailing" constant="20" id="dWH-Gn-ZlC"/>
                             <constraint firstItem="efF-Uz-Gt0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="erm-QA-wun"/>
                             <constraint firstItem="sah-La-Lit" firstAttribute="width" secondItem="xg8-Wk-ZKJ" secondAttribute="width" id="f35-Xr-XVA"/>
@@ -128,7 +158,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-91.304347826086968" y="67.633928571428569"/>
+            <point key="canvasLocation" x="-92.307692307692307" y="67.535545023696685"/>
         </scene>
     </scenes>
     <resources>
