@@ -1,7 +1,7 @@
 # Login Screen 2
 Create a login screen by using the Storyboard. Working with constraints and iOS Auto Layout. 
 
-<br><img src="https://github.com/lgreydev/LoginScreen-2/blob/main/Screenshots/001.jpg" width="550"><br>
+<br><img src="https://github.com/lgreydev/LoginScreen-2/blob/main/Screenshots/001.png" width="550"><br>
 
 
 ## Contributing
