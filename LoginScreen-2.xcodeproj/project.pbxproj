@@ -13,6 +13,9 @@
 		5EDE65EC26E4D1A600DB71C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EDE65EA26E4D1A600DB71C0 /* Main.storyboard */; };
 		5EDE65EE26E4D1AB00DB71C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EDE65ED26E4D1AB00DB71C0 /* Assets.xcassets */; };
 		5EDE65F126E4D1AB00DB71C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EDE65EF26E4D1AB00DB71C0 /* LaunchScreen.storyboard */; };
+		5EDE65F926E64E6300DB71C0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5EDE65F826E64E6300DB71C0 /* README.md */; };
+		5EDE65FB26E64EB400DB71C0 /* License in Resources */ = {isa = PBXBuildFile; fileRef = 5EDE65FA26E64EB400DB71C0 /* License */; };
+		5EDE65FE26E64F1700DB71C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5EDE65FD26E64F1700DB71C0 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		5EDE65ED26E4D1AB00DB71C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EDE65F026E4D1AB00DB71C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EDE65F226E4D1AB00DB71C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EDE65F826E64E6300DB71C0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5EDE65FA26E64EB400DB71C0 /* License */ = {isa = PBXFileReference; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
+		5EDE65FD26E64F1700DB71C0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,10 @@
 		5EDE65D826E4D1A500DB71C0 = {
 			isa = PBXGroup;
 			children = (
+				5EDE65FA26E64EB400DB71C0 /* License */,
+				5EDE65F826E64E6300DB71C0 /* README.md */,
+				5EDE65FD26E64F1700DB71C0 /* .gitignore */,
+				5EDE65FC26E64EC700DB71C0 /* Screenshots */,
 				5EDE65E326E4D1A600DB71C0 /* LoginScreen-2 */,
 				5EDE65E226E4D1A600DB71C0 /* Products */,
 			);
@@ -65,6 +75,13 @@
 				5EDE65F226E4D1AB00DB71C0 /* Info.plist */,
 			);
 			path = "LoginScreen-2";
+			sourceTree = "<group>";
+		};
+		5EDE65FC26E64EC700DB71C0 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +143,9 @@
 			files = (
 				5EDE65F126E4D1AB00DB71C0 /* LaunchScreen.storyboard in Resources */,
 				5EDE65EE26E4D1AB00DB71C0 /* Assets.xcassets in Resources */,
+				5EDE65F926E64E6300DB71C0 /* README.md in Resources */,
+				5EDE65FB26E64EB400DB71C0 /* License in Resources */,
+				5EDE65FE26E64F1700DB71C0 /* .gitignore in Resources */,
 				5EDE65EC26E4D1A600DB71C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
